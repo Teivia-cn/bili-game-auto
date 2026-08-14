@@ -1,0 +1,17 @@
+{
+  "name": "bili-game-auto",
+  "version": "1.0.0",
+  "description": "B站游戏中心活动自动解析+完成任务+抽奖",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "sql.js": "^1.11.0",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.0",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1"
+  }
+}

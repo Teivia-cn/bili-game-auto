@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Local runtime data and credentials
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and local environment configuration
+*.log
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
